@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+main {
+  padding: 2rem;
+}
+
+.club-row {
+  display: block;
+
+  background-color: #f8f8f8;
+  border: 1px;
+  border-color: gray;
+  border-radius: 14px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.2rem;
+
+  transition: all;
+  animation-duration: 1000ms;
+}
+
+.club-row:hover {
+  background-color: #f0f0f0;
+}
+
+.club-name {
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
