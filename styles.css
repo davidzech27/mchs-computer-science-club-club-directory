@@ -15,9 +15,8 @@ main {
 
 .club-row {
   display: block;
-
   background-color: #f8f8f8;
-  border: 1px;
+  border-width: 1px;
   border-color: gray;
   border-radius: 14px;
   padding-top: 1rem;
